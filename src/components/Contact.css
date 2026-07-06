@@ -7,10 +7,13 @@
     max-width:850px;
     color: beige;
     line-height:1.9;
-    margin-bottom:50px;
+    margin: 0 auto 60px auto;
 }
 
 .contact-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     display:flex;
     flex-wrap:wrap;
     gap:20px;

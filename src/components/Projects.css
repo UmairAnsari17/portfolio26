@@ -4,6 +4,9 @@
 }
 
 .section-subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:#ff7b2c;
     letter-spacing:3px;
     font-size:.9rem;
@@ -11,10 +14,14 @@
 }
 
 .section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-size:3rem;
     margin-bottom:60px;
 }
+
 
 .projects-grid{
     display:grid;

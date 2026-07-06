@@ -4,6 +4,9 @@
 }
 
 .qualification-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:beige;
     margin-top:15px;
     margin-bottom:60px;

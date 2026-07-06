@@ -11,8 +11,7 @@ function Hero() {
         </p>
 
         <h2 className="hero-title">
-          Hi, I'm <br />
-          <span>Umair Ansari.</span>
+          Hi, I'm Umair Ansari
         </h2>
 
         <h3 className="hero-heading">

@@ -22,7 +22,7 @@ function About() {
         <p className="section-subtitle">ABOUT</p>
 
         <h2 className="section-title">
-          About Me<span className="accent">.</span>
+         <span className="accent"> About Me.</span>
         </h2>
 
         <p className="about-description">

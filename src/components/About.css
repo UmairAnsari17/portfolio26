@@ -4,6 +4,9 @@
 }
 
 .accent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:var(--accent);
 }
 
@@ -11,7 +14,7 @@
     color:beige;
     line-height:1.9;
     max-width:900px;
-    margin-bottom:60px;
+    margin:0 auto 60px auto;
 }
 
 .about-heading{
@@ -19,9 +22,12 @@
 }
 
 .about-heading h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:#ff7b2c;
     letter-spacing:2px;
-    font-size:1rem;
+    font-size:0.9rem;
 }
 
 .skill-card{
