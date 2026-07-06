@@ -1,0 +1,58 @@
+.experience-section{
+    padding:120px 0;
+    background:#0d0d0b;
+}
+
+.experience-card{
+    background:#141418;
+    border:1px solid #222;
+    border-radius:10px;
+    padding:40px;
+    transition: .3s;
+}
+
+.experience-card:hover{
+    transform:translateY(-8px);
+    border-color:var(--accent);
+}
+
+.experience-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:30px;
+    gap:20px;
+}
+
+.experience-header h3{
+    color:white;
+    margin-bottom:10px;
+}
+
+.experience-header h4{
+    color:whitesmoke;
+}
+
+.experience-right{
+    text-align:right;
+}
+
+.experience-right span{
+    color:white;
+    display:block;
+}
+
+.experience-right p{
+    color:var(--accent);
+    margin-top:8px;
+}
+
+.experience-list{
+    color:beige;
+    padding-left:20px;
+}
+
+.experience-list li{
+    margin-bottom:18px;
+    line-height:1.8;
+}
