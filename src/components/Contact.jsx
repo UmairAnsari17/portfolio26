@@ -41,7 +41,7 @@ function Contact() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/./Umair Ansari Resume.pdf"
             className="secondary-btn"
             download
           >

@@ -1,58 +1,157 @@
 .experience-section{
-    padding:120px 0;
-    background:#0d0d0b;
+    background: var(--bg-color);
+    padding-top: 120px;
 }
 
 .experience-card{
-    background:#141418;
-    border:1px solid #222;
-    border-radius:10px;
-    padding:40px;
-    transition: .3s;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 40px;
+    transition: var(--transition);
 }
 
 .experience-card:hover{
-    transform:translateY(-8px);
-    border-color:var(--accent);
+    transform: translateY(-8px);
+    border-color: #ff7b2c;
+    box-shadow: var(--shadow);
 }
+
+/* Header */
 
 .experience-header{
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
-    margin-bottom:30px;
-    gap:20px;
+    gap:30px;
+    margin-bottom:35px;
 }
 
 .experience-header h3{
-    color:white;
+    color: #ff7b2c;
+    font-size:1.8rem;
     margin-bottom:10px;
 }
 
 .experience-header h4{
-    color:whitesmoke;
+    color: whitesmoke;
+    font-size:1.1rem;
+    font-weight:500;
 }
+
+/* Right Side */
 
 .experience-right{
     text-align:right;
+    flex-shrink:0;
 }
 
 .experience-right span{
-    color:white;
     display:block;
+    color: var(--text-color);
+    font-weight:600;
 }
 
 .experience-right p{
-    color:var(--accent);
+    color: #ff7b2c;
     margin-top:8px;
+    font-weight:600;
 }
 
+/* Bullet Points */
+
 .experience-list{
-    color:beige;
-    padding-left:20px;
+    color: var(--secondary-text);
+    padding-left:22px;
 }
 
 .experience-list li{
     margin-bottom:18px;
-    line-height:1.8;
+    line-height:1.9;
+}
+
+/* Tablet */
+
+@media (max-width:992px){
+
+    .experience-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .experience-right{
+
+        text-align:left;
+
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .experience-section{
+        padding:80px 0;
+    }
+
+    .experience-section .section-title{
+        text-align: center;
+        font-size: 2.4rem;
+        line-height: 1.2;
+        margin-bottom: 40px;
+    }
+
+    .experience-card{
+        padding:28px;
+    }
+
+    .experience-header h3{
+        font-size:1.45rem;
+    }
+
+    .experience-header h4{
+        font-size:1rem;
+    }
+
+    .experience-right span{
+        font-size:.95rem;
+    }
+
+    .experience-right p{
+        font-size:.9rem;
+    }
+
+    .experience-list{
+        padding-left:18px;
+    }
+
+    .experience-list li{
+        font-size:.98rem;
+        line-height:1.8;
+    }
+
+}
+
+/* Small Phones */
+
+@media (max-width:480px){
+    .experience-card{
+        padding:22px;
+    }
+
+    .experience-header h3{
+        font-size:1.25rem;
+    }
+
+    .experience-header h4{
+        font-size:.95rem;
+    }
+
+    .experience-list li{
+        font-size:.95rem;
+    }
 }

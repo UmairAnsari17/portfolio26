@@ -20,15 +20,15 @@
 
     /* SPACING */
 
-    --section-padding:120px;
+    --section-padding:70px 0;
     --container-width:1250px;
 
     /* BORDER */
 
-    --radius:18px;
+    --radius:10px;
 
     /* ANIMATION */
 
-    --transition:.35s ease;
+    --transition:.3s ;
 
 }

@@ -10,7 +10,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
-  FaEnvelope
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -22,7 +21,7 @@ function About() {
         <p className="section-subtitle">ABOUT</p>
 
         <h2 className="section-title">
-         <span className="accent"> About Me.</span>
+         About Me.
         </h2>
 
         <p className="about-description">
@@ -31,7 +30,8 @@ function About() {
           Proficiency in data collection & Cleaning, EDA, ETL/ELT and py libraries like pandas, numpy, matplotlib,
           seaborn, scikit-learn (Machine Learning) GenAI, LLM’s, etc with eager learn new technologies.<br/>
           Actively Exploring Data Engineering, and Mastering SQL by Building Projects and Solving Real world
-          problems.
+          problems.<br/>
+          Also Expanding my knowledge in modern web development by building projects & learning modern web technologies.
         </p>
 
         {/* Skills */}

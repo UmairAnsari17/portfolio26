@@ -1,19 +1,20 @@
 import "./Projects.css";
+import "../styles/globals.css"
 import projects from "../data/projects";
 
 function Projects() {
   return (
     <section className="projects-section" id="projects">
       <div className="container">
-
+      <div className="section-heading center">
         <p className="section-subtitle">
-          FEATURED PROJECTS
+          PROJECTS
         </p>
 
         <h2 className="section-title">
-          Selected Work.
+          Featured Projects.
         </h2>
-
+      </div>
         <div className="projects-grid">
 
           {projects.map((project) => (

@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    title: "Health Prediction System",
+    title: "Health Prediction System - Not Live",
     year: "2025-26",
     tech: "Python • Flask • Machine Learning • SQL",
     description:
@@ -12,7 +12,7 @@ const projects = [
 
   {
     id: 2,
-    title: "Blog Web.",
+    title: "Blog Web. - Not Live",
     year: "2025",
     tech: "Python • Flask • SQLAlchemy • Bootstrap ",
     description:
@@ -23,9 +23,9 @@ const projects = [
 
   {
     id: 3,
-    title: "My Top Movies",
+    title: "My Top Movies - Live",
     year: "2026",
-    tech: "Flask • SQLAlchemy • Bootstrap",
+    tech: "Python • Flask • SQLAlchemy • PostgreSQL • Bootstrap",
     description:
       "A personal movie tracker where users can add, edit, rate and review their favourite movies. Users can also rank movies as per their ratings.",
     github: "https://github.com/UmairAnsari17/My-top-movies",
@@ -35,12 +35,12 @@ const projects = [
 
   {
     id: 4,
-    title: "Portfolio Website",
+    title: "Portfolio Website - Live",
     year: "2026",
-    tech: "React • Bootstrap",
+    tech: "JavaScript • React • Bootstrap • Vite • Node JS",
     description:
       "A modern responsive portfolio showcasing my projects, skills and experience.",
-    github: "#",
+    github: "https://github.com/UmairAnsari17/portfolio26",
     // live: "#",
   },
 ];
