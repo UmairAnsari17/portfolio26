@@ -31,7 +31,7 @@ function Hero() {
           </a>
 
           <a
-            href="/Umair_Ansari_Resume.pdf"
+            href="/./resume/Umair Ansari Resume.pdf"
             download
             className="secondary-btn"
           >
