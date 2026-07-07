@@ -41,7 +41,7 @@ const projects = [
     description:
       "A modern responsive portfolio showcasing my projects, skills and experience.",
     github: "https://github.com/UmairAnsari17/portfolio26",
-    // live: "#",
+    live: "https://umairansari.vercel.app",
   },
 ];
 
