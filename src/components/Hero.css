@@ -26,7 +26,7 @@
     font-weight:700;
     line-height:1.1;
     margin-bottom:20px;
-    color:white;
+    color: var(--text-color);
 }
 
 .hero-title span{
@@ -34,7 +34,7 @@
 }
 
 .hero-heading{
-    color:#dddddd;
+    color: var(--text-color);
     font-size:2rem;
     font-weight:500;
     margin-bottom:30px;

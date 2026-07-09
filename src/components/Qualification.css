@@ -6,7 +6,7 @@
 /* Description */
 
 .qualification-description{
-    color:whitesmoke;
+    color: var(--text-color);
     text-align:center;
     line-height:1.8;
     margin:15px auto 60px;
@@ -125,7 +125,7 @@ hr{
     justify-content:space-between;
     align-items:center;
     padding:18px 20px;
-    background:#18181c;
+    background: var(--card-bg);
     border:1px solid var(--border);
     border-radius:12px;
     text-decoration:none;

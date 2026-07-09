@@ -47,7 +47,7 @@
 }
 
 .project-card h3{
-    color:whitesmoke;
+    color: var(--text-color);
     margin:15px 0;
     font-size:1.6rem;
     transition:var(--transition);

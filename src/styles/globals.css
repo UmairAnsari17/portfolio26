@@ -53,7 +53,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--text-color);
     font-size:3rem;
     line-height:1.15;
     margin-bottom:35px;

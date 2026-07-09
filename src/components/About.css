@@ -6,7 +6,7 @@
 /* About */
 
 .about-description{
-    color: whitesmoke;
+    color: var(--text-color);
     line-height: 1.9;
     max-width: 900px;
     margin: 0 auto 60px;

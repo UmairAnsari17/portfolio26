@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    title: "Health Prediction System - Not Live",
+    title: "Health Prediction System - Live Soon!",
     year: "2025-26",
     tech: "Python • Flask • Machine Learning • SQL",
     description:
@@ -12,7 +12,7 @@ const projects = [
 
   {
     id: 2,
-    title: "Blog Web. - Not Live",
+    title: "Blog Web. - Live Soon!",
     year: "2025",
     tech: "Python • Flask • SQLAlchemy • Bootstrap ",
     description:
