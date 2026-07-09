@@ -33,16 +33,6 @@ const projects = [
   },
 
 
-  {
-    id: 4,
-    title: "Portfolio Website - Live",
-    year: "2026",
-    tech: "JavaScript • React • Bootstrap • Vite • Node JS",
-    description:
-      "A modern responsive portfolio showcasing my projects, skills and experience.",
-    github: "https://github.com/UmairAnsari17/portfolio26",
-    live: "https://umairansari.vercel.app",
-  },
 ];
 
 export default projects;
