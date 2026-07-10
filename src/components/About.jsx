@@ -46,8 +46,8 @@ function About() {
           </div>
 
           <p>
-            <strong>Programming Languages:</strong> Python, Core Java,
-            JavaScript, SQL
+            <strong>Programming Languages:</strong> Python, Core Java, C++,
+               SQL
           </p>
         </div>
 
@@ -79,8 +79,8 @@ function About() {
           </div>
 
           <p>
-            <strong>Web Technologies:</strong> Flask, React, Vite, Node JS,
-            Bootstrap, HTML5, CSS3
+            <strong>Web Technologies:</strong> JavaScript, React, Vite, Node JS,
+            Bootstrap, HTML5, CSS3, Flask
           </p>
         </div>
 

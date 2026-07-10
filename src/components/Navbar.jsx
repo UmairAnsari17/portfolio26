@@ -89,7 +89,7 @@ function Navbar() {
 
           <li className="mobile-resume">
             <a
-              href="/./resume/Umair_Ansari_Resume_2026.pdf"
+              href="/./resume/Umair_Ansari_Resume-2026.pdf"
               download
               onClick={closeMenu}
             >

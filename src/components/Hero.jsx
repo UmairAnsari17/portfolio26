@@ -1,4 +1,5 @@
 import "./Hero.css";
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
@@ -6,7 +7,24 @@ function Hero() {
       <div className="container hero-content">
 
         <p className="hero-subtitle">
-          SOFTWARE DEVELOPER • DATA ENGINEER • ML ENTHUSIAST
+
+          <TypeAnimation
+            sequence={[
+              "SOFTWARE DEVELOPER",
+              1800,
+
+              "DATA ENGINEER",
+              1800,
+
+              "ML ENTHUSIAST",
+              1800,
+            ]}
+            wrapper="span"
+            speed={45}
+            repeat={Infinity}
+            cursor={true}
+          />
+
         </p>
 
         <h1 className="hero-title">
@@ -31,7 +49,7 @@ function Hero() {
           </a>
 
           <a
-            href="/./resume/Umair_Ansari_Resume_2026.pdf"
+            href="/./resume/Umair_Ansari_Resume-2026.pdf"
             download
             className="secondary-btn"
           >

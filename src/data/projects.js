@@ -1,6 +1,18 @@
 const projects = [
-  {
+{
     id: 1,
+    title: "My Top Movies - Live",
+    year: "2026",
+    tech: "Python • Flask • SQLAlchemy • PostgreSQL • Bootstrap",
+    description:
+      "A personal movie tracker where users can add, edit, rate and review their favourite movies. Users can also rank movies as per their ratings.",
+    github: "https://github.com/UmairAnsari17/My-top-movies",
+    live: "https://my-top-movies-diri.onrender.com/",
+  },
+
+
+  {
+    id: 2,
     title: "Health Prediction System - Live Soon!",
     year: "2025-26",
     tech: "Python • Flask • Machine Learning • SQL",
@@ -11,7 +23,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Blog Web. - Live Soon!",
     year: "2025",
     tech: "Python • Flask • SQLAlchemy • Bootstrap ",
@@ -20,18 +32,6 @@ const projects = [
     github: "https://github.com/UmairAnsari17/blog-website",
     // live: "#",
   },
-
-  {
-    id: 3,
-    title: "My Top Movies - Live",
-    year: "2026",
-    tech: "Python • Flask • SQLAlchemy • PostgreSQL • Bootstrap",
-    description:
-      "A personal movie tracker where users can add, edit, rate and review their favourite movies. Users can also rank movies as per their ratings.",
-    github: "https://github.com/UmairAnsari17/My-top-movies",
-    live: "https://my-top-movies-diri.onrender.com/",
-  },
-
 
 ];
 
