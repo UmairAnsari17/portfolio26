@@ -20,6 +20,11 @@ function Projects() {
           {projects.map((project) => (
             <div className="project-card" key={project.id}>
 
+              <img
+                src={project.image}
+                alt={project.title}
+                className="project-image"/>
+
               <span className="project-year">
                 {project.year}
               </span>
@@ -36,13 +41,23 @@ function Projects() {
 
               <div className="project-buttons">
 
-                <a href={project.github}>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noreferrer"
+              >
                   <u>GitHub</u>
-                </a>
+              </a>
 
-                <a href={project.live}>
-                  <u>Live</u>
-                </a>
+              {project.live && (
+                  <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noreferrer"
+                  >
+                      <u>Live Demo</u>
+                  </a>
+              )}
 
               </div>
 
