@@ -6,9 +6,10 @@
 .experience-card{
     background: var(--card-bg);
     border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 40px;
+    border-radius: 18px;
+    padding: 22px;
     transition: var(--transition);
+    overflow: hidden;
 }
 
 .experience-card:hover{
