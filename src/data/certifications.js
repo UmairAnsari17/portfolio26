@@ -1,7 +1,7 @@
 const certifications = [
   {
     id: 1,
-    title: "Python (Basic)",
+    title: "Python Fundamentals",
     provider: "HackerRank",
     year: "2026",
     link: "https://www.hackerrank.com/certificates/afebfa18c789",

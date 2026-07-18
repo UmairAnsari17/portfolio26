@@ -24,7 +24,7 @@ function Experience() {
 
             <div className="experience-right">
               <span>April 2025 – June 2025</span>
-              <p>Internship</p>
+              <p>On-Site (Mumbai) | Internship</p>
             </div>
 
           </div>

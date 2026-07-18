@@ -46,8 +46,7 @@ function About() {
           </div>
 
           <p>
-            <strong>Programming Languages:</strong> Python, Core Java, C++,
-               SQL
+            <strong>Programming & Data Analysis:</strong> Python (Pandas, Numpy, Matplotlib, Seaborn) | SQL (MySQL) | Data Cleaning | Statistical Analysis | EDA | Machine Learning
           </p>
         </div>
 
@@ -57,21 +56,10 @@ function About() {
           </div>
 
           <p>
-            <strong>Databases & ORMs:</strong> MySQL, PostgreSQL, SQLite,
-            SQLAlchemy
+            <strong>Databases & Data Engineering:</strong> MySQL | PostgreSQL | SQLite | SQLAlchemy | ETL/ELT Processes | Data Pipelines
           </p>
         </div>
 
-        <div className="skill-card">
-          <div className="skill-icon">
-            <FaChartBar />
-          </div>
-
-          <p>
-            <strong>Data Analysis:</strong> Data Cleaning, EDA,
-            Statistical Analysis, Machine Learning
-          </p>
-        </div>
 
         <div className="skill-card">
           <div className="skill-icon">
@@ -79,8 +67,7 @@ function About() {
           </div>
 
           <p>
-            <strong>Web Technologies:</strong> JavaScript, React, Vite, Node JS,
-            Bootstrap, HTML5, CSS3, Flask
+            <strong>Web Technologies:</strong> JavaScript | React | Vite | Bootstrap | HTML5 | CSS3 | Flask | Node.js
           </p>
         </div>
 
@@ -90,8 +77,7 @@ function About() {
           </div>
 
           <p>
-            <strong>Microsoft Tools:</strong> Word, Excel,
-            PowerPoint, Power BI
+            <strong>Business Intelligence & Reporting:</strong> Power BI (Interactive Dashboards, Automated Reporting) | Microsoft Excel (Pivot table, Advanced Formulas, Power Query)
           </p>
         </div>
 
@@ -101,8 +87,7 @@ function About() {
           </div>
 
           <p>
-            <strong>Tools:</strong> Git, GitHub,
-            Postman
+            <strong>Tools:</strong> Git | GitHub | Postman | Figma
           </p>
         </div>
 
