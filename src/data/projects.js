@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "CineVault - Live",
     year: "2026",
-    image: "/assets/projectCover/mtm-img.png",
+    image: "/assets/projectCover/cinevault-img.png",
     tech: "Python • Flask • Javascript • SQLAlchemy • PostgreSQL • Bootstrap",
     description:
       "A personal movie tracker where users can add, edit, rate and review their favourite movies. Users can also rank movies as per their ratings.",
