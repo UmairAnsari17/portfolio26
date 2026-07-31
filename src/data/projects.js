@@ -1,13 +1,13 @@
 const projects = [
 {
     id: 1,
-    title: "My Top Movies - Live",
+    title: "CineVault - Live",
     year: "2026",
     image: "/assets/projectCover/mtm-img.png",
     tech: "Python • Flask • Javascript • SQLAlchemy • PostgreSQL • Bootstrap",
     description:
       "A personal movie tracker where users can add, edit, rate and review their favourite movies. Users can also rank movies as per their ratings.",
-    github: "https://github.com/UmairAnsari17/My-top-movies",
+    github: "https://github.com/UmairAnsari17/CineVault",
     live: "https://my-top-movies-diri.onrender.com/",
   },
 
